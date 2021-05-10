@@ -1,3 +1,5 @@
+## Repositories & hosting witch CI/CD
+
 Create files local in VSCode
 
 git init
@@ -17,6 +19,8 @@ mirror witch SSH in [public repo GitHub](https://github.com/NikosColev/ErrorHorr
 ![screnshot](https://i.imgur.com/vxqgqJq.png)
 
 [CloudFlare](https://errorhorror.pages.dev/) (GitHub import) [settings](https://dash.cloudflare.com/425b2190485a5d1be13936835bfbad22/pages/view/errorhorror)
+
+[Netlify](https://errorhorror.netlify.app/) (GitLab import) [settings](https://app.netlify.com/sites/errorhorror/overview)
 
 
 
