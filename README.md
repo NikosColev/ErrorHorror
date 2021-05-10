@@ -22,6 +22,12 @@ mirror witch SSH in [public repo GitHub](https://github.com/NikosColev/ErrorHorr
 
 [Netlify](https://errorhorror.netlify.app/) (GitLab import) [settings](https://app.netlify.com/sites/errorhorror/overview)
 
+[Vercel](https://errorhorror.vercel.app/) ([no GitLab free import](https://i.imgur.com/HIX1ipY.png)) [settings](https://vercel.com/nikoscolev/errorhorror)
+
+
+
+
+
 
 
 
