@@ -1,122 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
 
-    <title>Заголовок моей страницы</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <title>My page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="src/style/style.css">
 
-    <!-- следующие 3 строки нужны для корректного отображения семантических элементов HTML5 в старых версиях Internet Explorer-->
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
   </head>
 
   <body>
-    <!-- Вот наш главный заголовок, который используется на всех страницах нашего веб-сайта -->
+    <!-- Here is our main header that is used across all the pages of our website -->
 
     <header>
-      <section>
-        <h1>Лесные слоны</h1>
-        <p>
-          В данном разделе мы поговорим о малоизвестных лесных слонах.
-          ...продолжение данного раздела...
-        </p>
-
-        <h1 class="implicit section">Монгольская песчанка</h1>
-        <p>
-          Монгольская песчанка – это небольшое симпатичное млекопитающее.
-          ...продолжение данного раздела...
-        </p>
-      </section>
-
-      <h1>Заголовок</h1>
+      <h1>Header</h1>
     </header>
 
     <nav>
       <ul>
-        <li><a href="#">Домашняя страница</a></li>
-        <li><a href="#">Наша команда</a></li>
-        <li><a href="#">Проекты</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our team</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
 
-      <!-- Форма поиска — это ещё один распространённый нелинейный способ навигации по веб-сайту. -->
+      <!-- A Search form is another common non-linear way to navigate through a website. -->
 
       <form>
-        <input type="search" name="q" placeholder="Search query" />
-        <input type="submit" value="Go!" />
+        <input type="search" name="q" placeholder="Search query">
+        <input type="submit" value="Go!">
       </form>
     </nav>
 
-    <!-- Здесь основное содержимое нашей страницы -->
+    <!-- Here is our page's main content -->
     <main>
-      <!-- Она содержит статью -->
+
+      <!-- It contains an article -->
       <article>
-        <h2>Заголовок статьи</h2>
+        <h2>Article heading</h2>
 
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
-          lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
-          viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
-          et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
-          congue enim, ut porta lorem lacinia consectetur.
-        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
 
-        <h3>Подраздел</h3>
+        <h3>subsection</h3>
 
-        <p>
-          Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem.
-          Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.
-        </p>
+        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
 
-        <p>
-          Pelientesque auctor nisi id magna consequat sagittis. Curabitur
-          dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet.
-          Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.
-        </p>
+        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
 
-        <h3>Ещё один подраздел</h3>
+        <h3>Another subsection</h3>
 
-        <p>
-          Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum
-          soclis natoque penatibus et manis dis parturient montes, nascetur
-          ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem
-          facilisis semper ac in est.
-        </p>
+        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
 
-        <p>
-          Vivamus fermentum semper porta. Nunc diam velit, adipscing ut
-          tristique vitae sagittis vel odio. Maecenas convallis ullamcorper
-          ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi
-          diam iaculis velit, is fringille sem nunc vet mi.
-        </p>
+        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
       </article>
 
-      <!-- Дополнительный контент также может быть вложен в основной контент -->
+      <!-- the aside content can also be nested within the main content -->
       <aside>
-        <h2>Связанные темы</h2>
+        <h2>Related</h2>
 
         <ul>
-          <li><a href="#">Мне нравится стоять рядом с берегом моря</a></li>
-          <li><a href="#">>Мне нравится стоять рядом с морем</a></li>
-          <li><a href="#">Даже на севере Англии</a></li>
-          <li><a href="#">Здесь не перестаёт дождь</a></li>
-          <li><a href="#">Лаааадно...</a></li>
+          <li><a href="#">Oh I do like to be beside the seaside</a></li>
+          <li><a href="#">Oh I do like to be beside the sea</a></li>
+          <li><a href="#">Although in the North of England</a></li>
+          <li><a href="#">It never stops raining</a></li>
+          <li><a href="#">Oh well...</a></li>
         </ul>
       </aside>
+
     </main>
 
-    <!-- И вот наш главный нижний колонтитул, который используется на всех страницах нашего веб-сайта -->
+    <!-- And here is our main footer that is used across all the pages of our website -->
 
     <footer>
-      <p>©Авторские права никому не принадлежат, 2050. Все права защищены.</p>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
     </footer>
+
   </body>
 </html>
